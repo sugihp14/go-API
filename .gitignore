@@ -1,0 +1,30 @@
+# Ignore binary files and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore Go binaries and test cache
+/bin/
+
+/test/
+/*.test
+
+# Ignore system and IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore application log files
+*.log
+
+# Ignore environment variable files
+.env
+
+# Ignore Go modules cache
+/go.mod
+/go.sum
+
+# Ignore macOS resource fork files
+__MACOSX/
